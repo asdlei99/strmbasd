@@ -1,0 +1,5 @@
+*_log.html
+*.layout
+*.depend
+bin/*
+obj/*

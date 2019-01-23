@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="strmbase_static" />
+		<Option pch_mode="2" />
+		<Option compiler="msys2_32" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/strmbase_static" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="msys2_32" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/strmbase_static" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="msys2_32" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-mthreads" />
+			<Add option="-fpermissive" />
+			<Add option="-DNO_DLLEXPORT" />
+			<Add directory="../strmbasd" />
+		</Compiler>
+		<Linker>
+			<Add option="-oleaut32" />
+		</Linker>
+		<Unit filename="amextra.cpp" />
+		<Unit filename="amextra.h" />
+		<Unit filename="amfilter.cpp" />
+		<Unit filename="amfilter.h" />
+		<Unit filename="amvideo.cpp" />
+		<Unit filename="amvideo.h" />
+		<Unit filename="arithutil.cpp" />
+		<Unit filename="bigger_type.h" />
+		<Unit filename="cache.h" />
+		<Unit filename="checkbmi.h" />
+		<Unit filename="cleanup.h" />
+		<Unit filename="combase.cpp" />
+		<Unit filename="combase.h" />
+		<Unit filename="compat.cpp" />
+		<Unit filename="compat.h" />
+		<Unit filename="cprop.cpp" />
+		<Unit filename="cprop.h" />
+		<Unit filename="ctlutil.cpp" />
+		<Unit filename="ctlutil.h" />
+		<Unit filename="ddmm.cpp" />
+		<Unit filename="ddmm.h" />
+		<Unit filename="dll.h" />
+		<Unit filename="dllentry.cpp" />
+		<Unit filename="dllsetup.cpp" />
+		<Unit filename="dllsetup.h" />
+		<Unit filename="dxmperf.h" />
+		<Unit filename="fourcc.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="measure.h" />
+		<Unit filename="msgthrd.h" />
+		<Unit filename="mtype.cpp" />
+		<Unit filename="mtype.h" />
+		<Unit filename="outputq.cpp" />
+		<Unit filename="outputq.h" />
+		<Unit filename="perflog.cpp" />
+		<Unit filename="perflog.h" />
+		<Unit filename="perfstruct.h" />
+		<Unit filename="pstream.cpp" />
+		<Unit filename="pstream.h" />
+		<Unit filename="pullpin.cpp" />
+		<Unit filename="pullpin.h" />
+		<Unit filename="refclock.cpp" />
+		<Unit filename="refclock.h" />
+		<Unit filename="reftime.h" />
+		<Unit filename="renbase.cpp" />
+		<Unit filename="renbase.h" />
+		<Unit filename="schedule.cpp" />
+		<Unit filename="schedule.h" />
+		<Unit filename="seekpt.cpp" />
+		<Unit filename="seekpt.h" />
+		<Unit filename="source.cpp" />
+		<Unit filename="source.h" />
+		<Unit filename="streams.h" />
+		<Unit filename="strmctl.cpp" />
+		<Unit filename="strmctl.h" />
+		<Unit filename="sysclock.cpp" />
+		<Unit filename="sysclock.h" />
+		<Unit filename="transfrm.cpp" />
+		<Unit filename="transfrm.h" />
+		<Unit filename="transip.cpp" />
+		<Unit filename="transip.h" />
+		<Unit filename="uuids.cpp" />
+		<Unit filename="videoctl.cpp" />
+		<Unit filename="videoctl.h" />
+		<Unit filename="vtrans.cpp" />
+		<Unit filename="vtrans.h" />
+		<Unit filename="winctrl.cpp" />
+		<Unit filename="winctrl.h" />
+		<Unit filename="winutil.cpp" />
+		<Unit filename="winutil.h" />
+		<Unit filename="wxdebug.cpp" />
+		<Unit filename="wxdebug.h" />
+		<Unit filename="wxlist.cpp" />
+		<Unit filename="wxlist.h" />
+		<Unit filename="wxutil.cpp" />
+		<Unit filename="wxutil.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
